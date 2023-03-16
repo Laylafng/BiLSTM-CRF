@@ -13,7 +13,6 @@ class Config(object):
             self.base_path = os.path.abspath('./')
             self._init_train_config()
 
-
     def _init_train_config(self):
         self.label_list = []
         self.use_gpu = True

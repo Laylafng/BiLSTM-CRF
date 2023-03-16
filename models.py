@@ -1,6 +1,6 @@
 import torch.nn as nn
 from transformers import BertPreTrainedModel, BertModel
-from torchcrf import CRF
+from TorchCRF import CRF
 
 
 class BERT_BiLSTM_CRF(BertPreTrainedModel):

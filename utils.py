@@ -2,6 +2,7 @@ import os
 import pickle
 import logging
 
+
 def set_logger(config):
     if not os.path.exists(config.log_path):
         os.mkdir(config.log_path)
@@ -44,6 +45,7 @@ def load_file(fp: str, sep: str = None):
             return [line.strip().split(sep) for line in lines]
         else:
             return lines
+
 
 def get_labels(config):
     """读取训练数据获取标签"""

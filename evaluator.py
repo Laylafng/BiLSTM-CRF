@@ -53,7 +53,7 @@ class Metrics(object):
         return f1_scores
 
     def report_scores(self):
-        """将结果用表格的形式打印出来，像这个样子：
+        """7将结果用表格的形式打印出来，像这个样子：
                       precision    recall  f1-score   support
               B-LOC      0.775     0.757     0.766      1084
               I-LOC      0.601     0.631     0.616       325
@@ -63,7 +63,7 @@ class Metrics(object):
               I-ORG      0.831     0.773     0.801      1104
               B-PER      0.812     0.876     0.843       735
               I-PER      0.873     0.931     0.901       634
-          avg/total      0.779     0.764     0.770      6178
+          avg/total      0.79     0.764     0.770      6178
         """
         # 打印表头
         header_format = '{:>9s}  {:>9} {:>9} {:>9} {:>9}'
